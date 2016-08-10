@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{
+  int a,b,c,opcion;
+cout<<"ingrese a: "<<endl;
+cin>> a;
+cout<<"ingrese b: ";
+cin>> b;
+ do {
+	cout <<endl;
+	cout<< "1: Suma "<<endl;
+	cout<< "2: Resta "<<endl;
+	cout<< "3: Producto"<<endl;
+	cout<< "4: Division"<<endl;
+	  cout<<"0: salir"<<endl;
+	cout<<" Elige una opcion ";
+	cin>> opcion ;
+	switch (opcion) {
+	case 1: c= a+b; break;
+	case 2: c= a-b; break;
+    case 3: c= a*b; break;
+	case 4: c= a/b; break;
+	case 0: cout<< "salir"; break ;
+	default: cout << "opcion no valida "<<endl;
+	}
