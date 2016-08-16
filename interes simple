@@ -13,7 +13,7 @@ void main ()
 	cin>> t ;
 	cout<< " Ingrese los dias trabajados para calcular el interes simple : " ;
 	cin>> d ;
-	Is= (c*t*d)/360 ;
+	Is= (c*t/100*d)/360 ;
 	cout<< "El interes simple es : " << Is  ;
 	getch ();
 }
