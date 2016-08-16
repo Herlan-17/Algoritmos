@@ -1,0 +1,22 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{
+	int N;
+	float	C,P,t=0;
+	cout<< "ingrese la cantida de productos:";
+	cin>> N ;
+	int i=0;
+	for (i=0;i<N;i++)
+	{
+		cout<< "ingrese el precio del producto ; ";
+		cin>> P;
+		cout<< "ingrese la cantidad del producto vendido :";
+		cin>> C ;
+		t=t+(C*P);
+	}
+	cout<< " la venta total de todos los productos es :"<< t ;
+	getch ();
+}
