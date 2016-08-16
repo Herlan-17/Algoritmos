@@ -1,0 +1,22 @@
+// programa.cpp : Defines the entry point for the console application.
+//autor:Herlan Catala
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+	float N1,N2,N3,P;
+	cout<< " Ingrese el primer numero para calcular el promedio : " ;
+	cin>> N1 ;
+	cout<< " Ingrese el segundo numero para calcular el promedio : " ;
+	cin>> N2 ;
+	cout<< " Ingrese el tercer numero para calcular el promedio : " ;
+	cin>> N3 ;
+	P= (N1+N2+N3)/3 ;
+	cout<< "El promedio de los tres numeros es : " << P  ;
+	getch ();
+}
