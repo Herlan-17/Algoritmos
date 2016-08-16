@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+	float  c,t,d,Is;
+	cout<< " Ingrese su capital para calcular el interes simple : " ;
+	cin>> c ;
+	cout<< " Ingrese la tasa de interes para calcular el interes simple : " ;
+	cin>> t ;
+	cout<< " Ingrese los dias trabajados para calcular el interes simple : " ;
+	cin>> d ;
+	Is= (c*t*d)/360 ;
+	cout<< "El interes simple es : " << Is  ;
+	getch ();
+}
