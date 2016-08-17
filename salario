@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{
+	int N;
+	float	S,c,b=0;
+	cout<< "ingrese la cantida de empleados" ;
+	cin>> N ;
+	int i=0;
+	for (i=0;i<N;i++)
+	{
+		cout<< "ingrese el salario del empleado";
+		cin>> S;
+
+		if(S<= 1800)
+		{
+		 cout<< "introducir descuento: ";
+		 cin>> b;
+	
+		 c=S-(S*(b/100));
+		 cout<<" el salario del empleado es :" <<c<<endl;
+		}
+		else
+		{
+	getch ();
+}
